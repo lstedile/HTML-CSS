@@ -1,17 +1,33 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Hind+Madurai:wght@300 & family= Pacifico & family= Passions+Conflict & family= Sriracha & display=swap');
+
+
+:root{ 
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passions Conflict', cursiva;
+    --fonte3: 'Sriracha', cursiva;
+    --fonte4: 'Hind Madurai', sem serifa;
+    --fonte5: 'Pacifico', cursiva;
+}
+
+
 * {
     margin: 0px;
-padding: 0px;
-}
+padding: 0px;}
+
 html, body {min-height: 100vh;
-background-color: darkgray;}
+background-color: darkgray;
+font-family: var(--fonte1)}
 
 header {background-color: black;
 color:white;
-text-align: center}
+text-align: center;
+font-family: var(--fonte2)}
 
 header > h1 {padding-top: 50px;
-    font-variant: small-caps;}
+    font-variant: small-caps;
+font-size: 5vw;}
 
     header > p { padding-bottom: 50px;}
 
@@ -26,8 +42,9 @@ section.normal {background-color: white; color: black}
 section.imagem {background-color: rgb(66, 64, 64);color:white}
 section.imagem > p {background-color: rgb(103, 100, 96); width: 350px;}
 
-section {padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 40px};
-
+section {padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 40px;
+font-family:var(--fonte3);
+font-size: 2.5vw;}
 
 
 footer
